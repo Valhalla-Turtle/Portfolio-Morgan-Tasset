@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Morgan Tasset</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<main>
+
+    <body>
+
+        <!-- NAVIGATION -->
+        <nav>
+            <div class="logo">MorganTasset<span>.</span></div>
+            <ul>
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <h1>Salut, moi c'est <span>Morgan</span></h1>
+            <p class="fade-in-text">Développeur Web passionné par la création.</p>
+            <a href="#projets" class="btn">Voir mes projets</a>
+        </section>
+        <!-- Wave transition -->
+        <svg class="hero_svg" viewBox="10 0 90 10" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+            <path fill="none" stroke="#0F0F1A" stroke-width="20" d="
+        M0 14
+        Q15 10 30 14
+        T60 14
+        T90 14
+        T120 14
+        ">
+                <animate attributeName="d" dur="8s" repeatCount="indefinite" values="
+        M0 14 Q15 10 30 14 T60 14 T90 14 T120 14;
+        M0 14 Q15 18 30 14 T60 14 T90 14 T120 14;
+        M0 14 Q15 10 30 14 T60 14 T90 14 T120 14
+      " />
+            </path>
+        </svg>
+
+        <!-- PROFIL -->
+        <section id="profil" class="profil">
+            <h2>Profil</h2>
+            <div class="profil_detail">
+                <div class="profil_txt">
+                    <p><strong>En quelques mots :</strong> Inventif, curieux et toujours prêt à apprendre. Développeur
+                        web
+                        formé en HTML, SCSS, JavaScript et React, avec une passion pour la création d'expériences
+                        uniques.
+                    </p>
+                    <p><strong>Compétences :</strong> HTML, SCSS, JavaScript, React</p>
+                </div>
+                <div>
+                    <img class="picture" src="image/me3.png" alt="Portrait Morgan Tasset">
+                </div>
+            </div>
+        </section>
+
+        <!-- Shopie Bluel -->
+        <section id="projets" class="container">
+            <h2>Mes Projets</h2>
+            <div class="grid-projets">
+                <div class="card">
+                    <div class="card-inner">
+                        <!-- RECTO -->
+                        <div class="card-front">
+                            <img src="image/project1.png" alt="Site Sophie Bluel">
+                        </div>
+                        <!-- VERSO -->
+                        <div class="card-back">
+                            <div>
+
+                                <h3>Shopie Bluel</h3>
+                                <p>Un portfolio pour une achitecte d'interieur, avec la possibilitées d'ajouter ou
+                                    modifier
+                                    des
+                                    images dans la galerie, ansi que la catégorisation des photos pour pouvoir utiliser
+                                    des
+                                    filtres.</p><br>
+                                <p><strong>Problématiques :</strong> La découverte du JavaScript sur ce projet a était
+                                    un
+                                    vrai
+                                    chalenge pour moi ansi que la compréansion de la relation front/back.</p><br>
+                                <p><strong>Compétences :</strong> HTML, CSS, JavaScript</p>
+                            </div>
+                            <div>
+                                <a href="#" target="_blank" class="btn">Voir</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-inner">
+
+                        <!-- RECTO -->
+                        <div class="card-front">
+                            <img src="image/project2.png" alt="Projet 2">
+                        </div>
+
+                        <!-- VERSO -->
+                        <div class="card-back">
+                            <div>
+                                <h3>Projet 1</h3>
+                                <p>Un site de location de biens immobiliers entre particuliers, proposant une
+                                    récupération
+                                    dynamique des annonces et des informations sur les propriétaires.</p><br>
+                                <p><strong>Problématiques :</strong>Durant ce projet, j’ai parfois eu du mal à organiser
+                                    mes
+                                    composants et à gérer l’état correctement, ce qui a entraîné quelques erreurs et
+                                    recherches supplémentaires. Malgré ces défis, l’expérience a été très formatrice et
+                                    j’ai
+                                    adoré travailler avec React, qui est pour l’instant mon langage préféré</p><br>
+                                <p><strong>Compétences :</strong> HTML, SCSS, JavaScript, React</p>
+                            </div>
+                            <div>
+                                <a href="#" target="_blank" class="btn">Voir</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>Email : <a href="mailto:morgantasset@gmail.com">morgantasset@gmail.com</a></p>
+            <p>LinkedIn : <a href="https://www.linkedin.com/in/morgan-tasset-7a976b1b1">Mon LinkedIn</a></p>
+            <p>GitHub : <a href="https://github.com/Valhalla-Turtle?tab=repositories">Mon GitHub</a></p>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <p>© 2025 Morgan Tasset - Portfolio</p>
+        </footer>
+
+    </body>
+
+</main>
+
+</html>
